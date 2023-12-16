@@ -1,0 +1,35 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  button.cancel {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  button.save {
+    background-color: #2196f3;
+    color: #fff;
+  }

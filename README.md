@@ -1,28 +1,27 @@
-# Todo-List App
+# TodoList
 
-The Todo-List app is a task management application built with Angular. It allows users to add, edit, and delete tasks, with filtering options for active, completed, and all tasks.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
-## Features
+## Development server
 
-- Add new tasks with a user-friendly input form.
-- Mark tasks as completed or active with easy-to-use checkboxes.
-- Edit existing tasks for quick updates.
-- Delete tasks effortlessly with a single click.
-- Filter tasks based on their completion status (All, Active, Completed).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Getting Started
+## Code scaffolding
 
-1. Clone the repository: `git clone https://github.com/KalaiSelvan01/todo-list.git`
-2. Navigate to the project directory: `cd todo-list`
-3. Install dependencies: `npm install`
-4. Run the app: `ng serve`
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Visit [localhost:4200](http://localhost:4200/) in your browser to use the app.
+## Build
 
-## Contributing
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Feel free to contribute by opening issues or submitting pull requests. Your feedback is highly appreciated.
+## Running unit tests
 
-## License
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
